@@ -9,6 +9,8 @@ authors = ["Antoine Espieux <antoine@lunarstrategy.com>"]
 chrono = "0.4"  # For date/time handling in examples
 serde = { version = "1.0", features = ["derive"] }  # For serialization examples
 serde_json = "1.0"  # For JSON handling
+ic-cdk = "0.13"
+candid = "0.10"
 
 # Optional dependencies for advanced modules
 # Uncomment as needed for specific exercises
@@ -17,9 +19,7 @@ serde_json = "1.0"  # For JSON handling
 # tokio = { version = "1", features = ["full"] }  # For async examples
 
 # ICP-specific dependencies (for module 7)
-# ic-cdk = "0.7"  # Internet Computer CDK
 # ic-cdk-macros = "0.6"  # Macros for ICP development
-# candid = "0.8"  # Candid interface description language
 
 # Define all exercise starter files as binaries
 [[bin]]

@@ -1,13 +1,21 @@
 use std::io;
 
 fn main() {
-    // TODO: 1. Prompt the user for their name
+    // 1. Prompt the user for their name
+    println!("What is your name?");
 
-    // TODO: 2. Read the user's input
+    // 2. Read the user's input
     let mut name = String::new();
+    io::stdin()
+        .read_line(&mut name)
+        .expect("Failed to read line");
 
-    // TODO: 3. Print a personalized greeting
+    // 3. Print a personalized greeting
+    let name = name.trim(); // Remove newline
+    println!("Hello, {}!", name);
 
     // BONUS: Print the current date
-    // Hint: You can use the chrono crate for this
+    // Uncomment the following lines after adding `chrono = "0.4"` to Cargo.toml:
+    use chrono::Local;
+    println!("Today's date is: {}", Local::now().format("%Y-%m-%d"));
 }

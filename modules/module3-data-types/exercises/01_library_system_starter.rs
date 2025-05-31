@@ -1,43 +1,91 @@
+use std::collections::HashMap;
+
 // Define the Book struct
 struct Book {
-    // TODO: Add fields for book properties (title, author, year, isbn)
+    title: String,
+    author: String,
+    year: u32,
+    isbn: String,
+}
+
+impl Book {
+    fn new(title: &str, author: &str, year: u32, isbn: &str) -> Book {
+        Book {
+            title: title.to_string(),
+            author: author.to_string(),
+            year,
+            isbn: isbn.to_string(),
+        }
+    }
 }
 
 // Define a BookStatus enum to track availability
+#[derive(Debug)]
 enum BookStatus {
-    // TODO: Add variants for different states (Available, Borrowed)
+    Available,
+    Borrowed,
 }
 
 // Define a Library struct to manage books
 struct Library {
-    // TODO: Add fields to store books and their status
+    books: HashMap<String, (Book, BookStatus)>,
 }
 
-// TODO: Implement methods for the Library struct
+// Implement methods for the Library struct
 impl Library {
     // Create a new, empty library
     fn new() -> Library {
-        // TODO: Implement this function
+        Library {
+            books: HashMap::new(),
+        }
     }
 
     // Add a book to the library
     fn add_book(&mut self, book: Book) {
-        // TODO: Implement this function
+        self.books.insert(book.isbn.clone(), (book, BookStatus::Available));
     }
 
     // Borrow a book from the library
     fn borrow_book(&mut self, isbn: &str) -> Result<&Book, &str> {
-        // TODO: Implement this function
+        match self.books.get_mut(isbn) {
+            Some((book, status)) => match status {
+                BookStatus::Available => {
+                    *status = BookStatus::Borrowed;
+                    Ok(book)
+                }
+                BookStatus::Borrowed => Err("Book is already borrowed."),
+            },
+            None => Err("Book not found."),
+        }
     }
 
     // Return a borrowed book to the library
     fn return_book(&mut self, isbn: &str) -> Result<&Book, &str> {
-        // TODO: Implement this function
+        match self.books.get_mut(isbn) {
+            Some((book, status)) => match status {
+                BookStatus::Borrowed => {
+                    *status = BookStatus::Available;
+                    Ok(book)
+                }
+                BookStatus::Available => Err("Book was not borrowed."),
+            },
+            None => Err("Book not found."),
+        }
     }
 
     // List all books in the library with their status
     fn list_books(&self) {
-        // TODO: Implement this function
+        for (isbn, (book, status)) in &self.books {
+            let status_str = match status {
+                BookStatus::Available => "Available",
+                BookStatus::Borrowed => "Borrowed",
+            };
+            println!(
+                "\"{}\" by {} ({}), ISBN: {}, Status: {}",
+                book.title, book.author, book.year, isbn, status_str
+            );
+        }
+        println!();
     }
 }
 
